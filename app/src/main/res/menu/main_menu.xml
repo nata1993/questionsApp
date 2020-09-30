@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnResetScore"
+        android:onClick="onResetScore"
+        android:title="@string/resscr" />
+    <item
+        android:id="@+id/btnResetAnswers"
+        android:onClick="onResetAnswer"
+        android:title="@string/resans" />
+</menu>

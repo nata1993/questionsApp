@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="cp">Capitals Quiz</string>
+    <string name="info">This is a quiz about your knowledge of the worlds capitals!</string>
+    <string name="highscore">Highscore: %.1f%%</string>
+    <string name="str">Start Quiz</string>
+    <string name="resscr">Reset highscore</string>
+    <string name="resans">Reset answers</string>
+    <string name="resetHighTitle">Reset highscore</string>
+    <string name="resetHighMessage">Do you really want to reset highscore?</string>
+    <string name="resetAnswerTitle">Reset saved answers</string>
+    <string name="resetAnswerMessage">Do you really want to reset saved answers?</string>
+    <string name="dontKnow">I dont\' know</string>
+    <string name="questionNumber">Question: %d%d</string>
+    <string name="prev">previous question</string>
+    <string name="next">next question</string>
+    <string name="resultsTitle">Score %.1f%%</string>
+    <string name="resultsDesc">Question results:</string>
+    <string name="backButton">back</string>
+    <string name="subAns">Submit Answers</string>
+
+    <!-- String array of 6 questions will be created. Array has 5 items: item 0 is the question,
+    item 1-4 are answer options and item 5 is the answer -->
+    <string-array name="q1">
+        <item>What is the capital city of France?</item>
+        <item>Orleans</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Lisbon</item>
+        //correct ansver
+        <item>opt3</item>
+    </string-array>
+
+    <string-array name="q2">
+        <item>What is the capital city of France?</item>
+        <item>Orleans</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Lisbon</item>
+        <item>opt3</item>
+        //correct answer
+    </string-array>
+
+    //Through this array questions will be accessed
+    <array name="questions">
+        <item>@array/q1</item>
+        <item>@array/q2</item>
+        <item>Paris</item>
+        <item>Lisbon</item>
+        <item>opt3</item>
+    </array>
+</resources>
