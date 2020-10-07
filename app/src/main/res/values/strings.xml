@@ -11,13 +11,17 @@
     <string name="resetAnswerTitle">Reset saved answers</string>
     <string name="resetAnswerMessage">Do you really want to reset saved answers?</string>
     <string name="dontKnow">I dont\' know</string>
-    <string name="questionNumber">Question: %d%d</string>
+    <string name="questionNumber">Question: %d</string>
     <string name="prev">previous question</string>
     <string name="next">next question</string>
     <string name="resultsTitle">Score %.1f%%</string>
     <string name="resultsDesc">Question results:</string>
     <string name="backButton">back</string>
     <string name="subAns">Submit Answers</string>
+    <string name="userAnswer">Your answer: %s</string>
+    <string name="correct">Correct Answer</string>
+    <string name="incorrect">Correct answer is: %s</string>
+    <string name="newHighscore">New Highscire!</string>
 
     <!-- String array of 6 questions will be created. Array has 5 items: item 0 is the question,
     item 1-4 are answer options and item 5 is the answer -->
